@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Kolektahin ang impormasyon ng negosyo mula sa Google Maps sa loob ng ilang segundo na may layuning makabuo ng mga lead ng B2B."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Leads Extractor - B2B Google Maps Edition"
+   }
+}

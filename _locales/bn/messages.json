@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "বি টু বি লিড উত্পন্ন করার লক্ষ্যে কয়েক সেকেন্ডের মধ্যে গুগল ম্যাপ থেকে ব্যবসায়ের তথ্য সংগ্রহ করুন।"
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Leads Extractor - B2B Google Maps Edition"
+   }
+}

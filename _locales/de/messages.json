@@ -1,0 +1,10 @@
+{
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Sammeln Sie in Sekundenschnelle Geschäftsinformationen von Google Maps, um B2B-Leads zu generieren."
+   },
+   "application_title": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Leads Extractor - B2B Google Maps Ausgabe"
+   }
+}

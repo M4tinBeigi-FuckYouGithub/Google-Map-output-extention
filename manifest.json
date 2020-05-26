@@ -1,0 +1,26 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "./assets/js/_extractor.js", "./assets/js/components/lodash.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "./assets/js/_extractor.js", "./assets/js/components/lodash.js" ],
+      "matches": [ "https://*/maps/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://vetsandpets.pl https://ssl.google-analytics.com https://*.parastorage.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_application_description__",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlai+kcRs4A5QAxvToCq0VKZSAG2eLqruUMCl1COH7OL26F1b9CVNun14ovr/gM3GT1Fc0ex4b2/DLBGtN5peTp2dp2FDcW9HyQQXSAibUx0L0vXiSCVCKJeMmufs1kLsjbQDvS5Ghm7T13YcZy5XnN17XgzDckayUngQrUalq1xi4LekVXK0CNJB9IqT1Yox3JnHY0PEOXKoIblVe7+cUkNA+vrnuMLbhA0y7KkfErjBjcCaQLGtSLZaF86SnMGx5GuZGSmH1MG2M2QrEExtT9bxzdC4O9ui8kZ6MRQ2rHAmtl1QJZm+vSQcsKE9eVGNB+ejZM2iWmDOvxjaLwKeuQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "29",
+   "name": "__MSG_application_title__",
+   "permissions": [ "storage", "identity", "identity.email", "activeTab", "tabs", "webRequest", "webRequestBlocking", "http://*/", "https://*/", "https://*/maps/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.8.1"
+}

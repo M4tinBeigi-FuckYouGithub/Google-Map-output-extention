@@ -1,0 +1,11 @@
+
+{
+    "application_title": {
+    	"message": "Leads Extractor - B2B Google Maps Edition",
+    	"description": "The title of the application, displayed in the web store."
+    },
+    "application_description": {
+    	"message": "Samle forretningsinformasjon fra Google Maps i løpet av sekunder med det formål å generere B2B-potensielle kunder.",
+    	"description": "The description of the application, displayed in the web store."
+    }
+}
